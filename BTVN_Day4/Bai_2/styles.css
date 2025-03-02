@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: auto;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card1{
+    height: 400px;
+    width: 260px;
+    border: 1px black solid;
+}
+.card1 h3{
+    height: 320px;
+    width: 240px;
+    background-color: rgb(185, 184, 182);
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;  /* Căn giữa theo chiều ngang */
+    align-items: center;  /* Căn giữa theo chiều dọc */
+}
+.card1 h2{
+    text-align: center;
+}
+.card1 p{
+    text-align: center;
+}
