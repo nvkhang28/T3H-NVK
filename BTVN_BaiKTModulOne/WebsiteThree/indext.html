@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="avatar">
+                <img src="https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2025/1/20/0c98f5c3e67a4ff28ef37585f37a9731" class="imgavatar">
+                <h3>ReStore</h3>
+            </div>
+            <div class="headerright">
+                <ul class="ulli">
+                    <li><a href="#"></a>Home</li>
+                    <li><a href="#"></a>About US</li>
+                    <li><a href="#"></a>Contact</li>
+                    <li><a href="#"></a>My Cart</li>
+                </ul>
+            </div>
+        </div>
+        <form action="/submit" method="POST" class="form-container">
+            <div class="form-section">
+                <h3>Your infomation</h3>
+                <div class="input-group">
+                    <label for="fullname">Full name<span>*</span></label>
+                    <input type="text" id="full-name" name="fullname" required>
+                </div>
+                <div class="input-group">
+                    <label for="phone">Phone number<span>*</span></label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="input-group">
+                    <label for="address">Address<span>*</span></label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+            </div>
+            <div class="form-section">
+                <h3>Payment method <span>*</span></h3>
+                <div class="payment-options">
+                    <label class="payment-option">
+                        <input type="radio" name="payment" value="credit-card" required>
+                        Credit card
+                    </label>
+                    <label class="payment-option">
+                        <input type="radio" name="payment" value="bank" required>
+                        Your bank
+                    </label>
+                    <label class="payment-option">
+                        <input type="radio" name="payment" value="momo" required>
+                        Momo
+                    </label>
+                </div>
+            </div>
+        </form>
+        <div  class="cart">
+            <div class="cartone">
+           <input type="checkbox" class="checkbox" >
+           <img src="https://bazaarvietnam.vn/wp-content/uploads/2024/12/Harpers-Bazaar-DJ-Mie-dat-giai-thuong-Asias-Best-Entertainer-2024_02.jpg" class="imgone">
+           <div>
+           <h3>Lorem ipsum dolor</h3>
+           <div class="btncolor">
+            <button class="btn" type="button">Blue</button>
+            <button class="btn" type="button">Classic</button>
+           </div>
+        </div>
+        <div class="btnright">
+            <div class="btnnumber">
+                <input type="number" >
+                <button type="button">Remove</button>
+            </div>
+        <p>Total:<span>$210</span></p>
+        </div>
+        </div>
+        <div class="cartone">
+            <input type="checkbox" class="checkbox" >
+            <img src="https://bazaarvietnam.vn/wp-content/uploads/2024/12/Harpers-Bazaar-DJ-Mie-dat-giai-thuong-Asias-Best-Entertainer-2024_02.jpg" class="imgone">
+            <div>
+            <h3>Lorem ipsum dolor</h3>
+            <div class="btncolor">
+             <button class="btn" type="button">Blue</button>
+             <button class="btn" type="button">Classic</button>
+            </div>
+         </div>
+         <div class="btnright">
+             <div class="btnnumber">
+                 <input type="number" >
+                 <button type="button">Remove</button>
+             </div>
+         <p>Total:<span>$210</span></p>
+         </div>
+         </div>
+         <div class="cartone">
+            <input type="checkbox" class="checkbox" >
+            <img src="https://bazaarvietnam.vn/wp-content/uploads/2024/12/Harpers-Bazaar-DJ-Mie-dat-giai-thuong-Asias-Best-Entertainer-2024_02.jpg" class="imgone">
+            <div>
+            <h3>Lorem ipsum dolor</h3>
+            <div class="btncolor">
+             <button class="btn" type="button">Blue</button>
+             <button class="btn" type="button">Classic</button>
+            </div>
+         </div>
+         <div class="btnright">
+             <div class="btnnumber">
+                 <input type="number" >
+                 <button type="button">Remove</button>
+             </div>
+         <p>Total:<span>$210</span></p>
+         </div>
+         </div>
+         <div class="cartone">
+            <input type="checkbox" class="checkbox" >
+            <img src="https://bazaarvietnam.vn/wp-content/uploads/2024/12/Harpers-Bazaar-DJ-Mie-dat-giai-thuong-Asias-Best-Entertainer-2024_02.jpg" class="imgone">
+            <div>
+            <h3>Lorem ipsum dolor</h3>
+            <div class="btncolor">
+             <button class="btn" type="button">Blue</button>
+             <button class="btn" type="button">Classic</button>
+            </div>
+         </div>
+         <div class="btnright">
+             <div class="btnnumber">
+                 <input type="number" >
+                 <button type="button">Remove</button>
+             </div>
+         <p>Total:<span>$210</span></p>
+         </div>
+         </div>
+         <button type="submit" class="submit">Submit order</button>
+
+       
+    </div>
+    <div class="shop-info">
+        <div>
+            <h4>My Shop</h4>
+            <div class="shop-icon">
+                <span>
+                    <i class="fas fa-map-marker-alt"></i> 22C Somewhere, Ha Noi
+                </span>
+                <span>
+                    <i class="fas fa-phone"></i> 09876543210
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

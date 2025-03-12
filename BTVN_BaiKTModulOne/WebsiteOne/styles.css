@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 700px;
+   
+}
+.header{
+    width: 100%;
+    height: 50px;
+    border: 1px red solid;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between ;
+    
+}
+.headerleft{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left:5% ;
+}
+.h3{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.headerimg{
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%;
+    object-fit: cover; 
+}
+.headeright{
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+.headeright ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+.headeright ul li a {
+    text-decoration: none; 
+    color: inherit; 
+    padding: 8px 16px;
+    border-radius: 5px;
+   
+}
+.headeright ul li a:hover{
+    color: #fff;
+    background-color: black;
+}
+.body{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(19, 17, 17, 0.1);  
+    margin-top: 40px;
+    margin-left: 50px;   
+    float:left
+}
+.checkbox-wrapper{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+}
+
+.checkbox-wrapper h1{
+    margin-bottom: 20px;
+
+}
+.btn_showMore{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: aqua;
+    border: 2px rgb(36, 228, 228) solid;
+    cursor: pointer;
+
+}
+.containerbox input{
+    width: 24px;
+    height: 16px;
+}
+.bodyright{
+    width: 80%;
+    height: 700px;
+    float: right;
+    margin-top: 40px ;
+}
+.bodytop{
+    width: 96%;
+    height: 40px;
+    margin: 0 auto;
+    border: 1px rgb(128, 124, 124) solid;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 5px;
+}
+
+.inputsearchleft{
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-left: 10px;
+    border: 1px rgb(203, 194, 194) solid;
+    padding-left: 20px;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    left:440px;
+    top:12px;
+}
+.dropdown-container{
+    display: flex;
+    gap:10px;
+    padding: 6px;
+    border-radius: 4px;
+    margin-right: 2%;
+
+}
+.dropdown {
+    width: 50%;
+    height: 28px;
+    border-radius: 4px;
+    color:rgb(125, 122, 122) ;
+    
+}
+.bodybottom{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    margin-top: 30px;
+    margin-left: 28px;
+}
+.imgbottom{
+    width: 220px;
+    height: 240px;
+    object-fit: cover;
+}
+.card{
+    width: 250px;
+    height: 320px;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+    overflow: hidden; /* Giúp bo góc đẹp hơn */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    background-color: #fff;
+}
+.card:hover {
+    transform: translateY(-5px); /* Hiệu ứng nổi lên khi hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+.card h3 {
+    font-size: 18px;
+    margin: 10px;
+    color: #333;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.price p {
+    margin: 0;
+}
+
+.fa-chevron-down {
+    color: #ff4d4f;
+}
+.pagination {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.page-btn,
+.dots {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #555;
+    transition: background-color 0.2s ease;
+}
+
+.page-btn.active {
+    background-color: #f0f0f0;
+    color: #333;
+    border-color: #ccc;
+}
+
+.page-btn:hover {
+    background-color: #e6e6e6;
+}
+
+.dots {
+    border: none;
+    background-color: transparent;
+    color: #999;
+    cursor: default;
+}
+.footer {
+    width: 100%;
+    height: 70px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 20px; 
+    box-sizing: border-box;
+    border:1px red solid;
+}
+
+.footer h3 {
+    font-size: 18px;
+}
+
+.footer .address {
+    display: flex;
+    gap: 20px;
+}
+
+.footer i {
+    margin-right: 8px;
+    color: var(--text-color);
+}
